@@ -40,7 +40,12 @@ Just follow the step for installation [here](https://nextjs.org/learn/foundation
 - Code-splitting is the process of splitting the application’s bundle into smaller chunks required by each entry point. The goal is to improve the application's initial load time by only loading the code required to run that page.
 
 For the (6 -) about Next:
- 
-    npm install react react-dom next
-and 
-    npm run dev
+Install the dependencies
+```bash 
+npm install react react-dom next
+```
+Run
+```bash 
+npm run dev
+``` 
+
