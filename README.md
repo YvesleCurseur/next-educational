@@ -35,14 +35,12 @@ Just follow the step for installation [here](https://nextjs.org/learn/foundation
 - Minification is the process of removing unnecessary code formatting and comments without changing the code’s functionality. The goal is to improve the application’s performance by decreasing file sizes.
 - Bundling is the process of resolving the web of dependencies and merging (or ‘packaging’) the files (or modules) into optimized bundles for the browser, with the goal of reducing the number of requests for files when a user visits a web page.
 
-> Note: Compiling is transforming code into something parsable by browsers. Bundling is resolving your applications dependency graph and reducing the number of files.
+> Compiling is transforming code into something parsable by browsers. Bundling is resolving your applications dependency graph and reducing the number of files.
 
 - Code-splitting is the process of splitting the application’s bundle into smaller chunks required by each entry point. The goal is to improve the application's initial load time by only loading the code required to run that page.
 
 For the (6 -) about Next:
  
     npm install react react-dom next
-
-    &
-
+and 
     npm run dev
