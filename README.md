@@ -36,7 +36,7 @@ Just follow the step for installation [here](https://nextjs.org/learn/foundation
 > Compiling is transforming code into something parsable by browsers. Bundling is resolving your applications dependency graph and reducing the number of files.
 - Code-splitting is the process of splitting the application’s bundle into smaller chunks required by each entry point. The goal is to improve the application's initial load time by only loading the code required to run that page.
 
-### For the "Next" directory:
+### For the [Next](https://github.com/YvesleCurseur/next-foundation/tree/main/6%20-%20Next) directory:
 Install the dependencies
 ```bash 
 npm install react react-dom next
@@ -80,7 +80,7 @@ You can use Static Generation for many types of pages, including:
 - E-commerce product listings
 - Help and documentation
 
-<Use Server-side rendering when the data needs to be up-to-date with every request
+> Use Server-side rendering when the data needs to be up-to-date with every request.
 
 - When should you use Client-side rendering?
 Private, user-specific pages where SEO is not relevant
@@ -88,7 +88,8 @@ Private, user-specific pages where SEO is not relevant
 # Dynamic Routes
 
 ## How to Statically Generate Pages with Dynamic Routes
-Exemple base on the blog project
+Exemple base on the [nextjs-blog](https://github.com/YvesleCurseur/next-foundation/tree/main/nextjs-blog)
+
 If you want to statically generate a page at a path called /posts/<id>
 where <id> can be dynamic, then...
 
