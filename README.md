@@ -106,3 +106,7 @@ Use `getStaticPaths` to fetch an array of product IDs and use `getStaticProps` t
 
 [Fetch External API or Query Database](https://nextjs.org/learn/basics/dynamic-routes/dynamic-routes-details)
 
+# 2024
+
+Creating Next js app with `pnpx create-next-app@latest`
+
